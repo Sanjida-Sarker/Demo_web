@@ -1,0 +1,146 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav starts */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(95, 133, 155, 0.764);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.723);
+}
+
+.header{
+    font-weight: 500;
+}
+
+.logo{
+    width: 70px;
+}
+/* Nav ends */
+
+/* Form starts */
+
+.form{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/Bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.decor{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.443);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frm{
+    min-width: 400px;
+    padding-top: 15px;
+    box-shadow: 5px 3px 5px 0px #90979d;
+    background-color: rgba(95, 133, 155, 0.413);
+    border-radius: 5px;
+
+}
+
+.sgn{
+    text-align: center; 
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #d5dae0;
+    line-height: 10px;
+    position: relative;
+    font-family: serif;
+    font-weight: 100;
+}
+
+.sgn::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    background: #9fa6af;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.opt{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+.form_dec{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+
+input[type='text'],input[type='password']{
+    padding: 5px 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(57, 138, 195);
+    border-bottom: 2px solid #8e8f91;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.fg_pass{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right; 
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+input[type='submit']{
+    background-color:#0167cdb2;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    
+}
+
+.n_user{
+    background-color: #f1f1f0ce;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    
+}
+
+.rg{
+    color: #07679b;
+    text-decoration: none;
+}
+
+label{
+    font-family: serif;
+    color: rgba(255, 255, 255, 0.723);
+}
+
+
+/* Form ends */
