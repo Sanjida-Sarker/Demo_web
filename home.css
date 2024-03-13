@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.sign_out{
+    cursor: pointer;
+}
+
+.container{
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+}
+
+.sidebar{
+    padding: 10px 10px;
+}
+
+.sidebar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    background-color: green;
+}
+
+.sidebar ul li{
+    padding: 10px;
+    text-wrap: nowrap;
+}
+
+.bg{
+    background-image: url(images/Bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
