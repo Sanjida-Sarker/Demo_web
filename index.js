@@ -11,9 +11,11 @@ function register(){
 value.addEventListener("submit", submit)
 function submit(e){
     e.preventDefault();
+    let user = localStorage.getItem("email")
+    let pass = localStorage.getItem("pass")
     let username = e.target.u_name.value;
     let password = e.target.pass.value;
-    if(username=="sanjida" && password=="123456"){
+    if(username== user && password==pass){
         location.href="home.html";
     }
     else{
